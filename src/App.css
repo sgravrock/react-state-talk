@@ -1,0 +1,9 @@
+.App {
+  margin: 1em;
+  text-align: center;
+}
+
+.App-page {
+  display: block;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+    <div>The count is <span id="count">0</span>.</div>
+    <button id="increment">+</button>
+    <button id="decrement">-</button>
+    <script>
+        (function() {
+            let count = 0;
+
+            document.querySelector("#increment").addEventListener("click", function() {
+                count = count + 1;
+                document.querySelector("#count").textContent = count;
+            });
+
+            document.querySelector("#decrement").addEventListener("click", function() {
+                count = count - 1;
+                document.querySelector("#count").textContent = count;
+            });
+        })();
+    </script>
+</body>
+</html>
